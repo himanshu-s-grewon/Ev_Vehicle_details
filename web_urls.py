@@ -1,0 +1,5 @@
+BASE_URL = "https://e-amrit.niti.gov.in"
+EV_VEHICLE_TYPE = f"{BASE_URL}/getevtypes"
+MAKER = f"{BASE_URL}/getmakertypebyid"
+EV_VEHICLE_DETAIL = f"{BASE_URL}/getcomaparedata"
+VEHICLE_MODEL = f"{BASE_URL}/getmodelsbymakerid"
