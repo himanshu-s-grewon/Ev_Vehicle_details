@@ -23,10 +23,10 @@ def get_maker(web_url):
                 brand_logo = None
 
             data_list.append({
-                "ev_type_id":ev_type_id,
-                "maker_id":maker_id,
-                "maker_name":maker_name,
-                "brand_logo":brand_logo
+                "ev_type_id": ev_type_id,
+                "maker_id": maker_id,
+                "maker_name": maker_name,
+                "brand_logo": brand_logo
             })
 
     json_object = json.dumps(data_list, indent=2)
@@ -34,3 +34,4 @@ def get_maker(web_url):
     # Writing to sample.json
     with open(f"{JSON_PATH}/ev_vehicle_makers.json", "w") as outfile:
         outfile.write(json_object)
+    return data_list
