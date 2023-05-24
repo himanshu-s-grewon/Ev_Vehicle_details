@@ -32,6 +32,6 @@ def get_maker(web_url):
     json_object = json.dumps(data_list, indent=2)
 
     # Writing to sample.json
-    with open(f"{JSON_PATH}/ev_vehicle_makers.json", "w") as outfile:
-        outfile.write(json_object)
+    # with open(f"{JSON_PATH}/ev_vehicle_makers.json", "w") as outfile:
+    #     outfile.write(json_object)
     return data_list

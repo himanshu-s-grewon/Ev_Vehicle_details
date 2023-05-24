@@ -32,5 +32,5 @@ def ev_vehicle_detail(web_url, ev_detail_list):
     json_object = json.dumps(data_list)
 
     # Writing to sample.json
-    with open(f"{JSON_PATH}/ev_vehicle_all_details.json", "w") as outfile:
-        outfile.write(json_object)
+    # with open(f"{JSON_PATH}/ev_vehicle_all_details.json", "w") as outfile:
+    #     outfile.write(json_object)
